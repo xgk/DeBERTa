@@ -172,7 +172,7 @@ We report our numbers based on multple runs with different random seeds here. He
 
 |Task	 |Command	|Results	|Running Time(8x32G V100 GPUs)|
 |--------|---------------|---------------|-------------------------|
-|**MNLI xxlarge v2(60%)**|	`experiments/glue/mnli.sh xxlarge-v2`|	**91.7/91.9** +/-0.1|	4h|
+|**MNLI xxlarge v2**|	`experiments/glue/mnli.sh xxlarge-v2`|	**91.7/91.9** +/-0.1|	4h|
 |MNLI xlarge v2|	`experiments/glue/mnli.sh xlarge-v2`|	91.7/91.6 +/-0.1|	2.5h|
 |MNLI xlarge|	`experiments/glue/mnli.sh xlarge`|	91.5/91.2 +/-0.1|	2.5h|
 |MNLI large|	`experiments/glue/mnli.sh large`|	91.3/91.1 +/-0.1|	2.5h|
@@ -200,12 +200,12 @@ We present the dev results on SQuAD 1.1/2.0 and several GLUE benchmark tasks.
 | BERT-Large                | 90.9/84.1 | 81.8/79.0 | 86.6/-      | 93.2  | 92.3 | 60.6 | 70.4   | 88.0/-       | 91.3 |90.0 |
 | RoBERTa-Large             | 94.6/88.9 | 89.4/86.5 | 90.2/-      | 96.4  | 93.9 | 68.0 | 86.6   | 90.9/-       | 92.2 |92.4 |
 | XLNet-Large               | 95.1/89.7 | 90.6/87.9 | 90.8/-      | 97.0  | 94.9 | 69.0 | 85.9   | 90.8/-       | 92.3 |92.5 |
-| DeBERTa-Large             | 95.5/90.1 | 90.7/88.0 | 91.3/91.1   | 96.5  | 95.3 | 69.5 | 86.6   | 92.6/94.6    | 92.3 |92.5 |
-| DeBERTa-XLarge            | -/-       | -/-       | 91.5/91.2   | -     | -    | -    | 89.5   | 92.1/94.3    | -    |-    |
-| DeBERTa-XLarge-V2         | -         | -         | 91.7/91.6   | -     | -    | -    | -      | -            | -    |-    |
-|**DeBERTa-XXLarge-V2(60%)**|**96.1/91.4**|**92.2/89.7**|**91.7/91.9**| -     | -    | -    | -      | -            | -    |-    |
-| DeBERTa-XLarge-V2-mnli    | -         | -         | 91.7/91.6   | -     | -    | -    | 93.9   | -            | -    |-    |
-|**DeBERTa-XXLarge-V2-mnli**| -         | -         |**91.7/91.9**| -     | -    | -    | 93.5   | -            | -    |-    |
+| [DeBERTa-Large](https://huggingface.co/microsoft/deberta-large) | 95.5/90.1 | 90.7/88.0 | 91.3/91.1   | 96.5  | 95.3 | 69.5 | 86.6   | 92.6/94.6    | 92.3 |92.5 |
+| [DeBERTa-XLarge](https://huggingface.co/microsoft/deberta-xlarge) | -/-       | -/-       | 91.5/91.2   | -     | -    | -    | 89.5   | 92.1/94.3    | -    |-    |
+| [DeBERTa-XLarge-V2](https://huggingface.co/microsoft/deberta-xlarge-v2) | -         | -         | 91.7/91.6   | -     | -    | -    | -      | -            | -    |-    |
+|**[DeBERTa-XXLarge-V2](https://huggingface.co/microsoft/deberta-xxlarge-v2)**|**96.1/91.4**|**92.2/89.7**|**91.7/91.9**| -     | -    | -    | -      | -            | -    |-    |
+|**[DeBERTa-XLarge-V2-mnli](https://huggingface.co/microsoft/deberta-xlarge-v2-mnli)**| -         | -         | 91.7/91.6   | -     | -    | -    | 93.9   | -            | -    |-    |
+|**[DeBERTa-XXLarge-V2-mnli](https://huggingface.co/microsoft/deberta-xxlarge-v2-mnli)**| -         | -         |**91.7/91.9**| -     | -    | -    | 93.5   | -            | -    |-    |
 
 
 ## Contacts
