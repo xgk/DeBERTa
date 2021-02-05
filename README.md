@@ -34,7 +34,7 @@ Our pre-trained models are packaged into zipped files. You can download them fro
 
 |Model        | Parameters| Hidden Size | Layers| Note|
 |-------------|------|-----|-----|---------|
-|**[XXLarge-V2(60%)](https://huggingface.co/microsoft/deberta-xxlarge-v2)<sup>1</sup>**|1.5B|1536| 48|128K new SPM vocab |
+|**[XXLarge-V2](https://huggingface.co/microsoft/deberta-xxlarge-v2)<sup>1</sup>**|1.5B|1536| 48|128K new SPM vocab |
 |[XLarge-V2](https://huggingface.co/microsoft/deberta-xlarge-v2)|900M|1536| 24| 128K new SPM vocab|
 |[XLarge](https://huggingface.co/microsoft/deberta-xlarge)|750M|1024|48| Same vocab as RoBERTa|
 |[Large](https://huggingface.co/microsoft/deberta-large)|400M|1024|24|Same vocab as RoBERTa|
@@ -46,7 +46,7 @@ Our pre-trained models are packaged into zipped files. You can download them fro
 |[Base-MNLI](https://huggingface.co/microsoft/deberta-base-mnli)|140M|768|12|Fine-turned with MNLI|
 
 ## Note 
-- 1 This is the model(89.9) that surpassed **T5 11B(89.3) and human performance(89.8)** on **SuperGLUE** for the first time. 128K new SPM vocab. However, due to computation resource limitation, the model only finished 60% of the entire training.
+- 1 This is the model(89.9) that surpassed **T5 11B(89.3) and human performance(89.8)** on **SuperGLUE** for the first time. 128K new SPM vocab. 
 
 # Try the code
 
