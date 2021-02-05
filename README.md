@@ -203,7 +203,7 @@ We present the dev results on SQuAD 1.1/2.0 and several GLUE benchmark tasks.
 | [DeBERTa-Large](https://huggingface.co/microsoft/deberta-large) | 95.5/90.1 | 90.7/88.0 | 91.3/91.1   | 96.5  | 95.3 | 69.5 | 86.6   | 92.6/94.6    | 92.3 |92.5 |
 | [DeBERTa-XLarge](https://huggingface.co/microsoft/deberta-xlarge) | -/-       | -/-       | 91.5/91.2   | -     | -    | -    | 89.5   | 92.1/94.3    | -    |-    |
 | [DeBERTa-XLarge-V2](https://huggingface.co/microsoft/deberta-xlarge-v2) | -         | -         | 91.7/91.6   | -     | -    | -    | -      | -            | -    |-    |
-|**[DeBERTa-XXLarge-V2](https://huggingface.co/microsoft/deberta-xxlarge-v2)**|**96.1/91.4**|**92.2/89.7**|**91.7/91.9**| -     | -    | -    | -      | -            | -    |-    |
+|**[DeBERTa-XXLarge-V2](https://huggingface.co/microsoft/deberta-xxlarge-v2)**|**96.1/91.4**|**92.2/89.7**|**91.7/91.9**| 97.2| 96.5|72.1|89 | 91.2/93.7| 92.8|93  |
 |**[DeBERTa-XLarge-V2-MNLI](https://huggingface.co/microsoft/deberta-xlarge-v2-mnli)**| -         | -         | 91.7/91.6   | -     | -    | -    | 93.9   | -            | -    |-    |
 |**[DeBERTa-XXLarge-V2-MNLI](https://huggingface.co/microsoft/deberta-xxlarge-v2-mnli)**| -         | -         |**91.7/91.9**| -     | -    | -    | 93.5   | -            | -    |-    |
 
