@@ -48,7 +48,7 @@ Our pre-trained models are packaged into zipped files. You can download them fro
 ## Note 
 - 1 This is the model(89.9) that surpassed **T5 11B(89.3) and human performance(89.8)** on **SuperGLUE** for the first time. 128K new SPM vocab. 
 
-# Try the code
+# Try the model
 
 Read our [documentation](https://deberta.readthedocs.io/en/latest/)
 
@@ -165,6 +165,7 @@ python3 -m DeBERTa.apps.run --task_name $task --do_train  \
 ## Important Notes
 1. By default we will cache the pre-trained model and tokenizer at `$HOME/.~DeBERTa`, you may need to clean it if the downloading failed unexpectedly.
 
+## You can also try our model with [HF Transformers](https://github.com/huggingface/transformers). But when you try HF transformers you need to specify --sharded_ddp argument. Please check our [XXLarge model card](https://huggingface.co/microsoft/deberta-xxlarge-v2) for example usage.
 
 ## Experiments
 Our fine-tuning experiments are carried on half a DGX-2 node with 8x32 V100 GPU cards, the results may vary due to different GPU models, drivers, CUDA SDK versions, using FP16 or FP32, and random seeds. 
