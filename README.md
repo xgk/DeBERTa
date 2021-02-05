@@ -162,10 +162,9 @@ python3 -m DeBERTa.apps.run --task_name $task --do_train  \
   --max_seq_len 128
 ```
 
-## Important Notes
-1. By default we will cache the pre-trained model and tokenizer at `$HOME/.~DeBERTa`, you may need to clean it if the downloading failed unexpectedly.
-
-## You can also try our model with [HF Transformers](https://github.com/huggingface/transformers). But when you try HF transformers you need to specify --sharded_ddp argument. Please check our [XXLarge model card](https://huggingface.co/microsoft/deberta-xxlarge-v2) for example usage.
+## Notes
+- 1. By default we will cache the pre-trained model and tokenizer at `$HOME/.~DeBERTa`, you may need to clean it if the downloading failed unexpectedly.
+- 2. You can also try our model with [HF Transformers](https://github.com/huggingface/transformers). But when you try HF transformers you need to specify --sharded_ddp argument. Please check our [XXLarge model card](https://huggingface.co/microsoft/deberta-xxlarge-v2) for example usage.
 
 ## Experiments
 Our fine-tuning experiments are carried on half a DGX-2 node with 8x32 V100 GPU cards, the results may vary due to different GPU models, drivers, CUDA SDK versions, using FP16 or FP32, and random seeds. 
